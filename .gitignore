@@ -11,14 +11,37 @@ node_modules
 dist
 dist-ssr
 *.local
+*.mjs
+
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# TYPESCRIPT
+*.tsbuildinfo
+
+# MAC
+._*
+.DS_Store
+Thumbs.db
+
+# MISC
+.idea
+.cache/
+.next/
+next-env.d.ts
+.nuxt/
+tmp/
+temp/
+.docusaurus
